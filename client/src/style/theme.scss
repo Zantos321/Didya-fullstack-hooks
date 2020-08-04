@@ -1,0 +1,19 @@
+/* Color Theme Swatches in Hex */
+$My-Color-Theme-1: #ff9700;
+$My-Color-Theme-2: #3c034f;
+$My-Color-Theme-3: #8e00cb;
+$My-Color-Theme-5: #ce0000;
+
+// FONTS
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Yantramanav:wght@400;700&display=swap");
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Yantramanav', sans-serif;
+
+$font-family-sans-serif: "Yantramanav", sans-serif, "Apple Color Emoji",
+   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: "Montserrat", serif;
+$font-family-brand: "Yantramanav";
+
+$font-family-base: $font-family-brand;

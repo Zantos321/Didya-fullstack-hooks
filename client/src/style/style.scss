@@ -1,0 +1,184 @@
+html {
+   overflow-y: scroll;
+}
+
+.landing-background {
+   background-color: $My-Color-Theme-1;
+   background-size: cover;
+   min-height: 100vh;
+}
+
+#landing-image {
+   max-width: 80%;
+}
+
+.landing-input {
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   border-bottom-color: $My-Color-Theme-1;
+   border-radius: 0;
+}
+
+input::placeholder {
+   font-weight: 600;
+   font-kerning: 100;
+   color: grayscale($color: #adb5bd);
+}
+
+.landing-submit-button {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+   background-color: transparent;
+}
+
+.list-group-item {
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-bottom: 1px solid $My-Color-Theme-1;
+}
+
+h1 {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+}
+
+h3 {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+}
+
+.card {
+   border-radius: 0;
+}
+
+.signup-button {
+   color: white;
+   background-color: $My-Color-Theme-2;
+}
+
+.edit-cancel {
+   color: white;
+   background-color: $My-Color-Theme-1;
+}
+
+.edit-save {
+   color: white;
+   background-color: $My-Color-Theme-2;
+}
+
+.btn {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   border-radius: 0;
+}
+
+.navbar-light {
+   background-color: $My-Color-Theme-1;
+}
+
+.text-bold {
+   font-family: $font-family-brand;
+   font-weight: bold;
+}
+
+.nav-link {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+}
+.didyaCard {
+   border: 0;
+}
+
+#didyaDots {
+   max-width: 95%;
+}
+
+.didyaText {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+}
+
+#add-task {
+   color: $My-Color-Theme-2;
+   min-width: 3rem;
+}
+
+.editTaskIcon {
+   width: 15px;
+   height: auto;
+   margin-top: -2px;
+   path {
+      fill: $My-Color-Theme-2;
+   }
+}
+
+.addTaskIcon {
+   width: 20px;
+   height: auto;
+   path {
+      fill: $My-Color-Theme-2;
+   }
+}
+
+.yesIcon {
+   width: 40px;
+   height: auto;
+   path {
+      fill: $My-Color-Theme-2;
+   }
+}
+
+.yesButton {
+   border: 0;
+   background-color: transparent;
+}
+
+.noIcon {
+   width: 40px;
+   height: auto;
+   path {
+      fill: $My-Color-Theme-2;
+   }
+}
+
+.noButton {
+   border: 0;
+   background-color: transparent;
+}
+
+.addLinkText {
+   font-family: $font-family-brand;
+   font-weight: bold;
+   color: $My-Color-Theme-2;
+}
+
+.editTaskTextArea {
+   color: white;
+   width: 100%;
+   background-color: #495057;
+
+   /* https://stackoverflow.com/a/30899549 */
+   border: none;
+   overflow: auto;
+   outline: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   resize: none;
+}
+
+.delete-verify {
+   cursor: pointer;
+}
+
+.disabled {
+   pointer-events: fill !important;
+   cursor: not-allowed !important;
+}
